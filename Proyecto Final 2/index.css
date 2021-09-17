@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(238, 237, 231);
+}
+header{
+    background-color: rgb(245, 136, 154);
+    text-align: center;
+    color: white; 
+    font-style: oblique;
+
+}
+.logo2{
+    text-align: center;
+}
+h1{
+    font-style: roboto;
+    text-align: center;
+    background-color: rgb(240, 188, 197);
+    color:white;
+}
+.envio{
+    width: 20px;
+    height: 20px;
+
+}
+.carrito{
+    width: 25px;
+    height: 25px;
+}
+
+.login{
+    width: 25px;
+    height: 25px;
+}
+.navbar-brand{
+    color:rgb(238, 237, 231);
+}
+
+
+.nav-link{
+    color:rgb(238, 237, 231);
+    font-size: 20px;
+}
+.logo{
+    width: 8%;
+    height: 8%;
+    
+}
+.card{
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+    
+}
+
+.redsocial{
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer{
+    background-color:rgb(250, 187, 198);
+    margin-top: 1500px;
+
+}
