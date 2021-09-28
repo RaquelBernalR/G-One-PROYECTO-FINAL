@@ -1,0 +1,26 @@
+.div-side{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: white;
+    float: left;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 10px;
+    
+}
+.side{
+    padding-top: 0px;
+    margin-top: 2px;
+    font-style: normal;
+}
+.contenedor{
+    float: left;
+    background-color: rgb(238,237,231);
+}
+.card {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
