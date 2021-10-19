@@ -23,8 +23,8 @@ h1{
 
 }
 .carrito{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 .login{
     width: 25px;
@@ -44,13 +44,12 @@ h1{
 }
 .card{
     float: left;
-    margin-right: 37px;
-    margin-top: 20px;
-    margin-left: 41px;
-      
+    margin: 20px;
 }
 section{
-    height: 60%;
+    height: 80%;
+    background-color: white;
+  
 }
 .redsocial{
     padding-top: 1px;
@@ -60,13 +59,44 @@ section{
 #navegacion{
     height: 10%;
 }
+.container_card{
+    background-color: white;
+    height: auto;
+}
 .footer{
-    background-color:rgb(250, 187, 198);
-    margin-top: 1100px;
-    height: 20%;
+    background-color:rgb(245, 136, 154);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+   
 }
 .footer2{
-    background-color:rgb(250, 187, 198);
-    margin-top: 1300px;
-    height: 20%;
+    background-color:rgb(245, 136, 154);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+
 }
+.contenedor{
+  display: flex;
+    
+}
+.container_section{
+  display:flex;
+  justify-content:center;
+  box-sizing:border-box"
+}
+/*footer background-color:rgb(250, 187, 198);  margin-top: 1070px;
+    height: 200px;   
+    display: block;
+    //
+element.style {
+}
+h1 {
+    text-align: center;
+    background-color: rgb(249 209 181);
+    color: white;
+    font-family: -webkit-pictograph;
+} franja de tipo de prenda
