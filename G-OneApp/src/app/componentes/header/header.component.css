@@ -1,0 +1,45 @@
+.header{
+    background-color: rgb(245, 136, 154);
+    text-align: center;
+    color: white; 
+    font-style: oblique;
+    height: 10%;
+}
+h6{
+    font-style: roboto;
+    text-align: center;
+    color:white;
+}
+.envio{
+    width: 20px;
+    height: 20px;
+
+}
+.logo{
+    width: 8%;
+    height: 8%;
+}
+.logo2{
+    text-align: center;
+    background-color: #b4a8b73b;
+}
+.barra{
+    background-color: #f8a189;
+    color: white;
+}
+.login{
+    width: 25px;
+    height: 25px;
+}
+.carrito{
+    width: 35px;
+    height: 35px;
+}
+.navbar-brand{
+    color:rgb(238, 237, 231);
+}
+.nav-link{
+    color:rgb(238, 237, 231);
+    font-size: 20px;
+}
+
