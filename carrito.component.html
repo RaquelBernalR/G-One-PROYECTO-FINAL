@@ -1,0 +1,57 @@
+
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col"></th>
+        <th scope="col">Producto</th>
+        <th scope="col">Cantidad</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Talla</th>
+        <th scope="col">Sub-total</th>
+        <th scope="col"></th>
+        
+
+    </tr>
+    </thead>
+
+    <tbody *ngFor="let item of carrito.carrito">
+        
+        <th class="img_principal">
+            <img src="{{item.imagen}}" style="width:100%;height:100%;">
+        </th>
+        <td class="campo">{{item.nombre}}</td>
+        <td class="campo">
+            <div class="btn_modificar btn btn-danger" (click)="Disminuir(item.id,item.talla)">-</div>
+            {{item.cantidad}}
+            <div class="btn_modificar btn btn-success" (click)="Aumentar(item.id,item.talla)">+</div>
+    
+        </td >
+        <td class="campo">{{item.precio | currency}}</td>
+        <td class="campo">{{item.talla}}
+        </td>
+        <td class="campo">{{item.precio * item.cantidad | currency}}</td> 
+
+        <td class="campo">
+    <button class="btn btn-danger" (click)="QuitarItem(item.id,item.talla)">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="10" y1="11" x2="10" y2="17" />
+            <line x1="14" y1="11" x2="14" y2="17" />
+            <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+            <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+        </svg>
+    
+    </button>           
+</td>
+
+</tbody>
+</table> 
+
+<div class="container">
+    <div  class="row" >
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><h5>Total: {{carrito.total | currency}}</h5></div>
+
+    </div>
+</div>
