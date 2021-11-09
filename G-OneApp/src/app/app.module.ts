@@ -11,6 +11,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
 import { ContactenosComponent } from './componentes/contactenos/contactenos.component';
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
+import { ServicioLoginComponent } from './componentes/servicio-login/servicio-login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
     LoginComponent,
     RegistroComponent,
     ContactenosComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ServicioLoginComponent
   ],
   imports: [
     BrowserModule,

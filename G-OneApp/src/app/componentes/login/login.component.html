@@ -8,14 +8,14 @@
   <div id="usuario">
     <img src="assets/imagen_otras/usuario.png" alt="usuario">
   </div>
-  <form class="row g-3">
+  <form id="loginF" class="row g-3" #lForm="ngForm"></form>
       <div class="col-md-12">
         <label for="inputEmail4" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="info@gmail.com">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="info@gmail.com" [(ngmodel="email")]>
       </div>
       <div class="col-md-12">
-        <label for="inputPassword4" class="form-label">Contrasena</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="8 dig-may-min-num">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="8 dig-may-min-num" [(ngmodel="password")]>
       </div>
       <div class="col-12">
         <button type="submit" class="btn btn-primary" style="background-color: coral; color: white; border-color: coral;">Ingresar</button>
