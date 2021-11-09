@@ -27,7 +27,7 @@ export class RegistroComponent implements OnInit {
 
     Guardar(){
       var post = {
-        host:this.peticion.urllocal
+        host:this.peticion.urllocal,
         path:'/guardar',
         data:{
           nombre:this.nombre,

@@ -41,3 +41,10 @@
     </div>
 </nav>
 </div>
+//52 1 51 05
+<li class="nav-item" *ngif="!usuarioservice.estadoiniciado">
+    <a class="nav-link" routerlink="/login">Iniciar Sesion</a>
+</li>
+<li class="nav-item" *ngif="!usuarioservice.estadoiniciado">
+    <a class="nav-link" routerlink="/registro">Registro </a>
+</li>
